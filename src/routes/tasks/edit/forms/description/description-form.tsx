@@ -5,11 +5,11 @@ import type { GetFields, GetVariables } from "@refinedev/nestjs-query";
 import MDEditor from "@uiw/react-md-editor";
 import { Button, Form, Space } from "antd";
 
-import type { Task } from "@/graphql/schema.types";
+import type { Task } from "../../../../../graphql/schema.types";
 import type {
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
-} from "@/graphql/types";
+} from "../../../../../graphql/types";
 
 import { UPDATE_TASK_MUTATION } from "../../queries";
 

@@ -8,19 +8,19 @@ import type {
 
 import { Form, Input, InputNumber, Select } from "antd";
 
-import { CustomAvatar, SelectOptionWithAvatar } from "@/components";
-import { USERS_SELECT_QUERY } from "@/graphql/queries";
+import { CustomAvatar, SelectOptionWithAvatar } from "../../../components";
+import { USERS_SELECT_QUERY } from "../../../graphql/queries";
 import type {
   BusinessType,
   CompanySize,
   Industry,
-} from "@/graphql/schema.types";
+} from "../../../graphql/schema.types";
 import type {
   UpdateCompanyMutation,
   UpdateCompanyMutationVariables,
   UsersSelectQuery,
-} from "@/graphql/types";
-import { getNameInitials } from "@/utilities";
+} from "../../../graphql/types";
+import { getNameInitials } from "../../../utilities";
 
 import { UPDATE_COMPANY_MUTATION } from "./queries";
 

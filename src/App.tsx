@@ -11,10 +11,9 @@ import routerProvider, {
 } from "@refinedev/react-router";
 
 import { App as AntdApp, ConfigProvider } from "antd";
-
-import { Layout } from "@/components";
-import { resources } from "@/config/resources";
-import { authProvider, dataProvider, liveProvider } from "@/providers";
+import { Layout } from "./components";
+import { resources } from "./config/resources";
+import { authProvider, dataProvider, liveProvider } from "./providers";
 import {
   CompanyCreatePage,
   CompanyEditPage,
@@ -24,7 +23,7 @@ import {
   TasksCreatePage,
   TasksEditPage,
   TasksListPage,
-} from "@/routes";
+} from "./routes";
 
 import "@refinedev/antd/dist/reset.css";
 

@@ -5,11 +5,11 @@ import type { GetFields, GetVariables } from "@refinedev/nestjs-query";
 import { Button, DatePicker, Form, Space } from "antd";
 import dayjs from "dayjs";
 
-import type { Task } from "@/graphql/schema.types";
+import type { Task } from "../../../../../graphql/schema.types";
 import type {
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
-} from "@/graphql/types";
+} from "../../../../../graphql/types";
 
 import { UPDATE_TASK_MUTATION } from "../../queries";
 

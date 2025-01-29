@@ -10,8 +10,8 @@ import {
 } from "@ant-design/icons";
 import { Modal } from "antd";
 
-import { Accordion } from "@/components";
-import type { Task } from "@/graphql/schema.types";
+import { Accordion } from "../../../components";
+import type { Task } from "../../../graphql/schema.types";
 
 import { DescriptionForm } from "./forms/description/description-form";
 import { DescriptionHeader } from "./forms/description/description-header";

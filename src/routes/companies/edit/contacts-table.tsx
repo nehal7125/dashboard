@@ -11,8 +11,8 @@ import {
 } from "@ant-design/icons";
 import { Button, Card, Input, Select, Space, Table } from "antd";
 
-import { ContactStatusTag, CustomAvatar, Text } from "@/components";
-import type { CompanyContactsTableQuery } from "@/graphql/types";
+import { ContactStatusTag, CustomAvatar, Text } from "../../../components";
+import type { CompanyContactsTableQuery } from "../../../graphql/types";
 
 import { COMPANY_CONTACTS_TABLE_QUERY } from "./queries";
 

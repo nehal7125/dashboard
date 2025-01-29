@@ -9,13 +9,13 @@ import type {
 import { FlagOutlined } from "@ant-design/icons";
 import { Checkbox, Form, Select, Space } from "antd";
 
-import { AccordionHeaderSkeleton } from "@/components";
-import { TASK_STAGES_SELECT_QUERY } from "@/graphql/queries";
+import { AccordionHeaderSkeleton } from "../../../../../components";
+import { TASK_STAGES_SELECT_QUERY } from "../../../../../graphql/queries";
 import type {
   TaskStagesSelectQuery,
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
-} from "@/graphql/types";
+} from "../../../../../graphql/types";
 
 import { UPDATE_TASK_MUTATION } from "../../queries";
 

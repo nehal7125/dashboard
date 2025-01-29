@@ -22,9 +22,9 @@ import {
 } from "antd";
 import dayjs from "dayjs";
 
-import { CustomAvatar, Text, TextIcon } from "@/components";
-import type { User } from "@/graphql/schema.types";
-import { getDateColor } from "@/utilities";
+import { CustomAvatar, Text, TextIcon } from "../../../../components";
+import type { User } from "../../../../graphql/schema.types";
+import { getDateColor } from "../../../../utilities";
 
 type ProjectCardProps = {
   id: string;

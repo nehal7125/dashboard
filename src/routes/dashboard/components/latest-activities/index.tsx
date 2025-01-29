@@ -5,11 +5,11 @@ import { UnorderedListOutlined } from "@ant-design/icons";
 import { Card, List, Skeleton as AntdSkeleton, Space } from "antd";
 import dayjs from "dayjs";
 
-import { CustomAvatar, Text } from "@/components";
+import { CustomAvatar, Text } from "../../../../components";
 import type {
   DashboardLatestActivitiesAuditsQuery,
   DashboardLatestActivitiesDealsQuery,
-} from "@/graphql/types";
+} from "../../../../graphql/types";
 
 import {
   DASHBOARD_LATEST_ACTIVITIES_AUDITS_QUERY,

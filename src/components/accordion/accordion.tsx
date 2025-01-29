@@ -1,5 +1,4 @@
-import { Text } from "@/components";
-
+import { Text } from "../text";
 import { AccordionHeaderSkeleton } from "./accordion-header-skeleton";
 
 type Props = React.PropsWithChildren<{
@@ -13,9 +12,7 @@ type Props = React.PropsWithChildren<{
 }>;
 
 /**
- * when activeKey is equal to accordionKey, the children will be rendered. Otherwise, the fallback will be rendered
- * when isLoading is true, the <AccordionHeaderSkeleton /> will be rendered
- * when Accordion is clicked, setActive will be called with the accordionKey
+ * Accordion component for collapsible content
  */
 export const Accordion = ({
   accordionKey,
@@ -34,11 +31,7 @@ export const Accordion = ({
   const isActive = activeKey === accordionKey;
 
   const toggleAccordion = () => {
-    if (isActive) {
-      setActive(undefined);
-    } else {
-      setActive(accordionKey);
-    }
+    setActive(isActive ? undefined : accordionKey);
   };
 
   return (

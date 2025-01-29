@@ -5,13 +5,12 @@ import { type HttpError, useInvalidate } from "@refinedev/core";
 import type { GetFields, GetVariables } from "@refinedev/nestjs-query";
 
 import { Form, Skeleton } from "antd";
-
-import { Text } from "@/components";
-import type { Task } from "@/graphql/schema.types";
+import { Text } from "../../../../../components";
+import type { Task } from "../../../../../graphql/schema.types";
 import type {
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
-} from "@/graphql/types";
+} from "../../../../../graphql/types";
 
 import { UPDATE_TASK_MUTATION } from "../../queries";
 
